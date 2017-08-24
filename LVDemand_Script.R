@@ -11,7 +11,7 @@ library(gridExtra)
 library(hydroGOF)
 
 # Load functions
-# setwd("C:/Users/mgarc120/Dropbox (ASU)/Research/Modeling/DemandModel")
+setwd("~/PerCapWaterUse")
 source("dem1.R")
 source("dem2.R")
 source("dem3.R")
