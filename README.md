@@ -15,3 +15,5 @@ Required packages include: hydroGOF, plyr, reshape2, ggplot2, gridExtra
 Required functions include: dem1.R, dem2.R, dem3.R, dem4.R, calSep.R, valSep.R
 
 Required dataframes include: refModeMonthly, externalVars, decisionVars
+
+For an interactive web version of this model see: https://mgarcia.shinyapps.io/demandmodel/ 
