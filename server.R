@@ -115,7 +115,7 @@ shinyServer(
       
       dates <- dates <- seq(from = 1997,to = (2012+11/12), by = 1/12)
       dfTest <- data.frame(dates,Dobs,DM)
-      colnames(dfTest) <- c("Year","Dobs","DM")
+      colnames(dfTest) <- c("Year","Observed","Modeled")
       dfTest <- melt(dfTest, id=c("Year")) 
 
       # Plot model results and compare to data
